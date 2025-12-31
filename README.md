@@ -2,7 +2,7 @@
 <p align="center"><i>Bot de WhatsApp con temática de Shiroko de Blue Archive</i></p>
 
 <p align="center">
-  <img src="./src/shiroko.jpg" width="100%"/>
+  <img src="./src/tsubasa.jpg" width="100%"/>
 </p>
 
 ### **`❕️ Información importante 💙`**
