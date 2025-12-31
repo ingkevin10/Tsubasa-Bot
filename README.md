@@ -1,4 +1,4 @@
-<h1 align="center">SHIROKO 🐺</h1>  
+<h1 align="center">Tsubasa ⚽</h1>  
 <p align="center"><i>Bot de WhatsApp con temática de Shiroko de Blue Archive</i></p>
 
 <p align="center">
@@ -7,7 +7,7 @@
 
 ### **`❕️ Información importante 💙`**
 
-**`Shiroko-Bot`** es un bot de WhatsApp basado en Node.js que utiliza la librería **@whiskeysockets/Baileys**
+**`Tsubasa-Bot`** es un bot de WhatsApp basado en Node.js que utiliza la librería **@whiskeysockets/Baileys**
 Este bot ofrece una variedad de características para mejorar tu experiencia en WhatsApp.
 
 🚫 Este proyecto NO está afiliado a WhatsApp ni WhatsApp LLC.
@@ -24,7 +24,7 @@ Sub-Bots (JadiBot)
 Extensiones adicionales
 
 <details>
- <summary><b>FUNCIONES 🐺</b></summary>
+ <summary><b>FUNCIONES ⚽</b></summary>
 
 > Bot en desarrollo si presenta alguna falla reportar al creador para darle una solución óptima.
 
