@@ -178,7 +178,7 @@ npm start
   </a>
 </p>
 
-## ꕤ Desarrolladora Principal
+## ꕤ Creditos
 
 <p align="center">
   <a href="https://github.com/Arlette-Xz">
