@@ -393,7 +393,7 @@ if (!fs.existsSync(`./${global.sessions}/creds.json`)) {
                 addNumber = String(phoneNumber).replace(/[^0-9]/g, '')
             } else {
                 do {
-                    console.log(chalk.hex('#00FFFF')('🐺 INGRESAR NÚMERO'))
+                    console.log(chalk.hex('#00FFFF')('⚽ INGRESAR NÚMERO'))
                     console.log(chalk.white('[+] '))
                     phoneNumber = await question('')
                     phoneNumber = String(phoneNumber).replace(/\D/g, '')
@@ -487,7 +487,7 @@ loadCommandsFromFolders().then((_) => Object.keys(global.plugins)).catch(console
 
 conn.isInit = false
 console.log(chalk.hex('#00FFFF')('╔══════════════════════════════╗'))
-console.log(chalk.hex('#00FFFF').bold('║         SHIROKO - LISTO        ║'))
+console.log(chalk.hex('#00FFFF').bold('║         Tsubasa - LISTO        ║'))
 console.log(chalk.hex('#00FFFF')('╚══════════════════════════════╝'))
 
 setupWatcher()
