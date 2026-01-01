@@ -65,7 +65,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-git clone https://github.com/Arlette-Xz/Shiroko-Bot && cd Shiroko-Bot
+git clone https://github.com/ingkevin10/Tsubasa-Bot && cd Tsubasa-Bot
 ```
 ```bash
 yarn install
@@ -107,38 +107,38 @@ pm2 start index
 ### En caso de detenerse
 > _Si despues que ya instalastes el bot y termux te salta en blanco, se fue tu internet o reiniciaste tu celular, solo realizaras estos pasos:_
 ```bash
-cd && cd Shiroko-Bot && npm start
+cd && cd Tsubasa-Bot && npm start
 ```
 ----
 ### Obtener nuevo código QR 
-> *Detén el bot, haz click en el símbolo (ctrl) [default=z] usar la letra "z" + "ENTER" hasta que salga algo verdes similar a: `Shiroko-Bot $`*
+> *Detén el bot, haz click en el símbolo (ctrl) [default=z] usar la letra "z" + "ENTER" hasta que salga algo verdes similar a: `Tsubasa-Bot $`*
 > **Escribe los siguientes comandos uno x uno :**
 ```bash 
-cd && cd Shiroko-Bot && rm -rf sessions/Principal && npm run qr
+cd && cd Tsubasa-Bot && rm -rf sessions/Principal && npm run qr
 ```
 ----
 ### Obtener nuevo código de teléfono 
 ```bash 
-cd && cd Shiroko-Bot && rm -rf sessions/Principal && npm run code
+cd && cd Tsubasa-Bot && rm -rf sessions/Principal && npm run code
 ```
 </details>
 
 <details>
-<summary><b>ꕤ Actualizar Shiroko-Bot-MD</b></summary>
+<summary><b>ꕤ Actualizar Tsubass-Bot-MD</b></summary>
 
 > **Utiliza esta opción únicamente si deseas actualizar a la última versión de Shiroko-Bot. Hemos implementado un método ingenioso mediante comandos para realizar la actualización, pero ten en cuenta que al usarla se eliminarán todos los archivos de la versión actual y se reemplazarán con los de la nueva versión. Solo se conservará la base de datos, por lo que será necesario volver a vincular el Bot.**  
 
 **Comandos para actualizar Shiroko-Bot-MD de forma automática**
 
 ```bash
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/Arlette-Xz/Shiroko-Bot/main/termux.sh | bash 
+grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/ingkevin10/Tsubasa-Bot/main/termux.sh | bash 
 ```
 **✰ Volverte owner del Bot**
 
 *Si después de instalar el bot e iniciar la sesión (deseas poner tu número es la lista de owner pon este comando:*
 
 ```bash
-cd && cd Shiroko-Bot && nano settings.js
+cd && cd Tsubasa-Bot && nano settings.js
 ```
 #### Para que no pierda su progreso en Shiroko-Bot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
 > *Estos comandos solo funcionan para TERMUX, REPLIT, LINUX*.                > 💡 Puedes usar [Termux Widget](https://f-droid.org/packages/com.termux.widget/) para lanzar el bot más rápido desde la pantalla de inicio.
@@ -150,7 +150,7 @@ cd && cd Shiroko-Bot && nano settings.js
   <summary><b>🚀 VER PASOS PARA CLOUD SHELL</b></summary>
 
 ```bash
-git clone https://github.com/Arlette-Xz/Shiroko-Bot && cd Shiroko-Bot
+git clone https://github.com/ingkevin10/Tsubasa-Bot && cd Tsubasa-Bot
 ```
 
 ```bash
