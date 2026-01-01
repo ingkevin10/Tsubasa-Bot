@@ -37,7 +37,7 @@ global.shirokobot = true
 //  CONFIG INFORMACIÓN DEL BOT
 // ─────────────────────────────
 
-global.botname = "Tsubass"
+global.botname = "Tsubasa"
 global.textbot = "made with by ING Kevin 10"
 global.dev = "© powered by ING Kevin 10"
 global.author = "© made with by ING Kevin 10"
