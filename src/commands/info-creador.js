@@ -1,11 +1,11 @@
 import PhoneNumber from 'awesome-phonenumber'
 
 const BOT_OWNER_INFO = {
-    numero: '573114910796',
-    nombre: 'Arlette Xz',
-    cargo: 'Dueña Principal',
-    nota: 'Creadora del Bot',
-    region: '🇨🇴 Colombia',
+    numero: '51907779949',
+    nombre: 'ING Kevin 10',
+    cargo: 'Dueño Principal',
+    nota: 'Creador del Bot',
+    region: '🇵🇪 Perú',
     web: 'https://github.com/speed3xz',
 }
 
