@@ -76,16 +76,16 @@ function cleanInactiveSessions() {
     })
 }
 
-export async function shirokoJadiBot(options) {
-    let { pathshirokoJadiBot, m, conn, args, usedPrefix, command, fromCommand } = options
+export async function tsubasaJadiBot(options) {
+    let { pathtsubasaJadiBot, m, conn, args, usedPrefix, command, fromCommand } = options
     const mcode = (command === 'code' || (args && args.includes('--code')))
-    const userId = m?.sender ? m.sender.split`@`[0] : path.basename(pathshirokoJadiBot)
+    const userId = m?.sender ? m.sender.split`@`[0] : path.basename(pathtsubasaJadiBot)
     
     if (global.conns[userId]?.sock) {
         try { global.conns[userId].sock.ws.close() } catch {}
     }
     
-    const { state, saveCreds } = await useMultiFileAuthState(pathshirokoJadiBot)
+    const { state, saveCreds } = await useMultiFileAuthState(pathtsubasaJadiBot)
     const { version } = await fetchLatestBaileysVersion()
 
     const connectionOptions = {
@@ -159,8 +159,8 @@ export async function shirokoJadiBot(options) {
                 try { 
                     sock.ws.close()
                     sock.ev.removeAllListeners()
-                    if (fs.existsSync(pathshirokoJadiBot)) {
-                        fs.rmSync(pathshirokoJadiBot, { recursive: true, force: true }) 
+                    if (fs.existsSync(pathtsubasaJadiBot)) {
+                        fs.rmSync(pathtsubasaJadiBot, { recursive: true, force: true }) 
                     }
                 } catch (e) {}
                 delete global.isSent[userId]
@@ -204,12 +204,12 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     if (socklimit >= 50) return m.reply(`ꕤ No hay espacios disponibles para Sub-Bots.`)
 
     let id = `${m.sender.split`@`[0]}`
-    let pathshirokoJadiBot = path.join(`./${global.jadi}/`, id)
+    let pathtsubasaJadiBot = path.join(`./${global.jadi}/`, id)
     
-    if (!fs.existsSync(pathshirokoJadiBot)) fs.mkdirSync(pathshirokoJadiBot, { recursive: true })
+    if (!fs.existsSync(pathtsubasaJadiBot)) fs.mkdirSync(pathtsubasaJadiBot, { recursive: true })
 
     global.isSent[id] = false 
-    shirokoJadiBot({ pathshirokoJadiBot, m, conn, args, usedPrefix, command, fromCommand: true })
+    tsubasaJadiBot({ pathtsubasaJadiBot, m, conn, args, usedPrefix, command, fromCommand: true })
     user.Subs = new Date() * 1
 }
 
