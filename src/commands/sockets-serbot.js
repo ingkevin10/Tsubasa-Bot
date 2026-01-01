@@ -175,7 +175,7 @@ export async function shirokoJadiBot(options) {
     sock.ev.on('creds.update', saveCreds)
     
     try {
-        let handlerFile = await import('../shiroko.js')
+        let handlerFile = await import('../tsubasa.js')
         sock.handler = handlerFile.handler.bind(sock)
         
         sock.ev.on('messages.upsert', async (chatUpdate) => {
