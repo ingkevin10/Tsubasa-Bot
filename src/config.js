@@ -20,14 +20,14 @@ global.tiempo = d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', 
 // ─────────────────────────────
 
 global.botNumber = "" // Agregue el número del Bot en "botNumber" si desea recibir código de 8 dígitos sin registrar el número en la consola.
-global.owner = ["573114910796", "573237649689", "5217225305296"]
-global.suittag = ["573114910796"] 
+global.owner = ["51907779949 ", "", ""]
+global.suittag = ["51907779949 "] 
 global.prems = []
-global.prefix = [":", "💙", "/"]
+global.prefix = [":", "💙", "/", "#"]
 global.libreria = "Multi Device"
 global.vs = "1.0"
 global.languaje = 'Español'
-global.nameqr = "Shiroko"
+global.nameqr = "Tsubasa"
 global.apikey = 'Shiroko7'
 global.sessions = "Sessions/Principal"
 global.jadi = "Sessions/SubBot"
@@ -37,11 +37,11 @@ global.shirokobot = true
 //  CONFIG INFORMACIÓN DEL BOT
 // ─────────────────────────────
 
-global.botname = "Shiroko"
-global.textbot = "made with by Arlette Xz"
-global.dev = "© powered by Arlette Xz"
-global.author = "© made with by Arlette Xz"
-global.etiqueta = "Arlette Xz"
+global.botname = "Tsubass"
+global.textbot = "made with by ING Kevin 10"
+global.dev = "© powered by ING Kevin 10"
+global.author = "© made with by ING Kevin 10"
+global.etiqueta = "ING Kevin 10"
 global.currency = "Sky-Coins"
 
 // ─────────────────────────────
@@ -51,7 +51,7 @@ global.currency = "Sky-Coins"
 global.banner = fs.readFileSync('./src/assets/banner.jpg')
 global.icono = fs.readFileSync('./src/assets/menu.jpg')
 global.catalogo = fs.readFileSync('./src/assets/menu.jpg')
-global.logo = fs.readFileSync('./src/shiroko.jpg')
+global.logo = fs.readFileSync('./src/tsubasa.jpg')
 
 // ─────────────────────────────
 //  CONFIG WELCOME
@@ -68,11 +68,11 @@ global.welcomeConfig = {
 //  REDES SOCIALES
 // ─────────────────────────────
 
-global.canalNombre = "【 ✰ 】𝗦𝗵𝗶𝗿𝗼𝗸𝗼 𝗕𝗼𝘁 - 𝗢𝗳𝗶𝗰𝗶𝗮𝗹"
-global.group = "https://chat.whatsapp.com/CN8JtNy0BTCHb2v5009AL5"
-global.channel = "https://whatsapp.com/channel/0029VbAmwbQBqbr587Zkni1a"
-global.github = "https://github.com/Arlette-Xz/Shiroko-Bot"
-global.gmail = "arlette.x7z@gmail.com"
+global.canalNombre = "【 ⚽ 】𝗧𝘀𝘂𝗯𝗮𝘀𝗮 𝗕𝗼𝘁 - 𝗢𝗳𝗶𝗰𝗶𝗮𝗹"
+global.group = ""
+global.channel = ""
+global.github = "https://github.com/ingkevin10/Tsubasa-Bot"
+global.gmail = ""
 global.ch = {
     ch1: "120363403176894973@newsletter"
 }
