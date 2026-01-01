@@ -15,7 +15,7 @@ import { spawn } from 'child_process'
 import readline from 'readline'
 import NodeCache from 'node-cache'
 import lodash from 'lodash'
-import { shirokoJadiBot } from './src/commands/sockets-serbot.js'
+import { tsubasaJadiBot } from './src/commands/sockets-serbot.js'
 
 const { PhoneNumberUtil } = pkg
 const phoneUtil = PhoneNumberUtil.getInstance()
@@ -238,7 +238,7 @@ async function connectionUpdate(update) {
 
 global.reloadHandler = async function (restatConn) {
     try {
-        const Handler = await import(`./src/shiroko.js?update=${Date.now()}`).catch(console.error)
+        const Handler = await import(`./src/tsubasa.js?update=${Date.now()}`).catch(console.error)
         if (Object.keys(Handler || {}).length) {
             handler = Handler
             if (global.processedMessages) {
@@ -422,12 +422,12 @@ process.on('unhandledRejection', (reason, promise) => {
 })
 
 let isInit = true
-let handler = await import('./src/shiroko.js')
+let handler = await import('./src/tsubasa.js')
 
 _quickTest().catch(console.error)
 
 global.rutaJadiBot = join(__dirname, `./${global.jadi}`)
-if (global.shirokoJadibts) {
+if (global.tsubasaJadibts) {
     if (!existsSync(global.rutaJadiBot)) {
         mkdirSync(global.rutaJadiBot, { recursive: true })
     }
@@ -441,8 +441,8 @@ if (global.shirokoJadibts) {
                 if (existsSync(creds)) {
                     setTimeout(async () => {
                         try {
-                            await shirokoJadiBot({ 
-                                pathshirokoJadiBot: botPath, 
+                            await tsubasaJadiBot({ 
+                                pathtsubasaJadiBot: botPath, 
                                 m: null, 
                                 conn: global.conn, 
                                 args: [], 
