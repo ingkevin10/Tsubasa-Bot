@@ -11,7 +11,7 @@ handler.all = async function (m) {
     global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true})
 
     global.nombre = m.pushName || 'Usuario'
-    global.packsticker = `┊ Shiroko Team\n⤷ https://github.com/Arlette-Xz\n\n┊INFO\n ⤷ speed3xz.bot.nu/soporte`
+    global.packsticker = `┊ Tsubasa Team\n⤷ https://github.com/ingkevin10\n\n┊INFO\n ⤷ speed3xz.bot.nu/soporte`
     global.packsticker2 = `┊Bot\n┊⤷${global.botname} \n\n┊Usuario:\n┊⤷${nombre}`
     
     const canalConfig = {
