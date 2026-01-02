@@ -1,7 +1,7 @@
-// SHIROKO-BOT
+// TSUBASA-BOT
 // =========================
-// Desarrolladora: Arlette Xz (GitHub: Arlette-Xz)
-// Repositorio: https://github.com/Arlette-Xz/Shiroko-Bot
+// Desarrolladora: ING Kevin 10 (GitHub: ingkevin10)
+// Repositorio: https://github.com/ingkevin10/Tsubasa-Bot
 
 // Inspirado en:
 // - Jadibot (arquitectura)
